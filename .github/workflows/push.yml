@@ -19,7 +19,7 @@ jobs:
 
   deploy:
     name: Deploy 🚀
-    if: ${{ github.repository == 'jellyfin-labs/jellyfin-titanos' }}
+    if: ${{ github.repository == 'jellyfin/jellyfin-titanos' }}
     uses: ./.github/workflows/__deploy.yml
     needs:
       - main
